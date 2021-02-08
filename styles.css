@@ -1,0 +1,51 @@
+body, html{
+  height:100%;
+  background-image: linear-gradient(to right, #aaaaaa, white, #aaaaaa)
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10%;
+  padding-top: 5%;
+  font-family: 'Handlee', cursive;
+  font-size: 5rem;
+}
+
+#wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+}
+
+#quote-box {
+  display: table-cell;
+  vertical-align: middle;
+  width: 50%;
+  background-color: #a4ebf3;
+  padding: 2%;
+  border-radius: 5px;
+  box-shadow: 20px 20px 10px grey;
+}
+
+#author {
+  margin-left: 80%;
+}
+
+#text {
+  font-family: 'Handlee', cursive;
+  font-weight: 100;
+  font-size: 2em;
+}
+
+#author {
+  font-family: 'Handlee', cursive;
+  font-weight: 100;
+  font-size: 1.2em;
+}
+
+#new-quote {
+  margin: 1%;
+}
